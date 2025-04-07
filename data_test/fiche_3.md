@@ -1,4 +1,5 @@
-## DÉFINITION 25
+
+### DÉFINITION 25
 La probabilité d'un événement \( A \) sachant qu'un événement \( B \) a eu lieu est notée \( P(A|B) \) et est définie par la formule :
 \[
 P(A|B) = \frac{P(A \cap B)}{P(B)}
@@ -10,7 +11,7 @@ On veut calculer la probabilité qu'un jet de dé équilibré donne au moins un 
 
 ---
 
-## DÉFINITION 27
+### DÉFINITION 27
 Deux événements \( A \) et \( B \) sont dits indépendants si :
 \[
 P(A \cap B) = P(A)P(B)
@@ -30,7 +31,7 @@ On tire une boule parmi 15 boules numérotées de 1 à 15. Les événements «le
 
 ---
 
-## DÉFINITION 29
+### DÉFINITION 29
 Une partition de \( \Omega \) est un ensemble d'événements \( (A_1, \ldots, A_k) \) tel que :
 1. Les événements \( (A_i) \) sont disjoints : \( \forall i,j \in \llbracket 1;k \rrbracket, A_i \cap A_j = \emptyset \)
 2. Les événements \( (A_i) \) recouvrent \( \Omega \) : \( A_1 \cup A_2 \cup \ldots \cup A_k = \Omega \)
@@ -40,7 +41,7 @@ Considérons un ensemble de résultats d'un lancer de dé. Les événements \( A
 
 ---
 
-## THÉORÈME 30
+### THÉORÈME 30
 Soit \( (A_1, \ldots, A_k) \) une partition de \( \Omega \) avec \( \forall i \in \llbracket 1;k \rrbracket, P(A_i) \neq 0 \) et \( B \) un événement d'un espace probabilisé \( \Omega \). Alors :
 \[
 P(B) = \sum_{i=1}^{k} P(A_i \cap B) = \sum_{i=1}^{k} P(B|A_i)P(A_i)
@@ -55,7 +56,7 @@ Dans une urne composée de 5 boules rouges et 4 boules jaunes, quelle est la pro
 
 ---
 
-## Exercice 15
+### Exercice 15
 Un bijoutier vend des perles. Le tableau ci-dessous donne la répartition des perles selon leur forme et leur couleur :  
 
 |               | Sphérique | Équilibrée | Baroque | Total |
@@ -74,7 +75,7 @@ e) Calculer \( P(B) \) et traduire par une phrase.
 
 ---
 
-## Exercice 16
+### Exercice 16
 Pour contacter une compagnie d'assurances, deux possibilités sont offertes : rendez-vous en agence ou par téléphone. Le responsable du pôle « satisfaction » décide de réaliser une enquête afin de savoir si les client.e.s sont satisfait.e.s de leur accueil. À l'issue de l'enquête, les résultats sont les suivants :  
 - 38% se sont rendu.e.s en agence  
 - parmi les client.e.s qui se sont rendus en agence, 90% se sont déclaré.e.s satisfait.e.s de l'accueil  
@@ -90,3 +91,4 @@ d) Montrer que \( P(S) = 0.869 \).
 e) Calculer \( P(A \cup S) \).  
 f) Le responsable a pour objectif qu'il y ait moins de 12% des client.e.s non satisfait.e.s de l'accueil. Cet objectif est-il atteint ?  
 g) Sachant que Lambda se dit satisfaite, quelle est la probabilité qu'elle se soit rendue en agence ?  
+
